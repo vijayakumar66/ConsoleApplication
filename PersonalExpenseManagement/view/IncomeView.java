@@ -1,14 +1,10 @@
 package view;
 
 import java.util.Scanner;
-
 import controler.IncomeController;
-
-
 public class IncomeView {
 	IncomeController incomeController =new IncomeController();
 	Scanner scanner = new Scanner(System.in);
-
 	public void ShowIncomeView() {
 		double amount;
 		String inputIncome,method;
