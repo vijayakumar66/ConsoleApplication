@@ -7,7 +7,6 @@ import controler.LoginController;
 public class LoginView {
 		LoginController loginControler;
 		Scanner scanner=new Scanner(System.in);
-		
 		LoginView(){
 			loginControler = new LoginController();
 		}	
@@ -33,7 +32,6 @@ public class LoginView {
 			}
 			
 		}
-
 		public static void main(String[] args) {
 //			LoginView login=new LoginView();
 //			login.inital();
