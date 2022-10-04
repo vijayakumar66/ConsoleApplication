@@ -1,9 +1,6 @@
 package view;
-
 import java.util.Scanner;
-
 import controler.TransactionController;
-
 public class TransactionView {
 	int inputOption, searchDate, searchMonth, searchYear;
 	Scanner scanner = new Scanner(System.in);
@@ -31,7 +28,6 @@ public class TransactionView {
 			showTransation();
 		}
 	}
-
 	public void transactionOptions(int value) {
 
 		System.out.println("1.Day search");
